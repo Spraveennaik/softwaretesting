@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = webdriver.Edge('C:/Program Files/Webdrivers/MicrosoftWebDriver')
+browser = webdriver.Ie('C:/Program Files/Webdrivers/IEDriverServer')
 browser.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login")
 
 browser.close()
