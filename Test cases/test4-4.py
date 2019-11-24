@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = webdriver.Ie('C:/Program Files/Webdrivers/IEDriverServer')
+browser = webdriver.Safari()
 browser.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login")
 
 browser.close()

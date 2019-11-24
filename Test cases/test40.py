@@ -24,10 +24,6 @@ class Test40(unittest.TestCase):
         driver.find_element_by_id("btnLogin").click()
         driver.find_element_by_id("welcome").click()
         driver.find_element_by_link_text("Logout").click()
-        driver.find_element_by_id("txtUsername").clear()
-        driver.find_element_by_id("txtUsername").send_keys("Admin")
-        driver.find_element_by_id("txtPassword").clear()
-        driver.find_element_by_id("txtPassword").send_keys("admin123")
         driver.close()
     
     def is_element_present(self, how, what):
