@@ -1,9 +1,7 @@
 from selenium import webdriver
-from time import sleep
 from UsabilityTest import UsabilityTest
 import random
 import string
-import requests
 
 
 def randomString(l = 10):
